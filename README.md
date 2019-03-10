@@ -10,13 +10,11 @@
 
 ### 项目状态
 
-jquery-pjax is **largely unmaintained** at this point. It might continue to
-receive important bug fixes, but _its feature set is frozen_ and it's unlikely
-that it will get new features or enhancements.
+jquery-pjax已经 **基本不再维护** 。 它可能只会继续接收重要的错误修复，但它的功能集已冻结，并且不太可能开发新的功能或增强功能。
 
-## Installation
+## 安装
 
-pjax depends on jQuery 1.8 or higher.
+pjax依赖jQuery 1.8或更高版本
 
 ### npm
 
@@ -24,15 +22,20 @@ pjax depends on jQuery 1.8 or higher.
 $ npm install jquery-pjax
 ```
 
-### standalone script
+### 独立使用
 
-Download and include `jquery.pjax.js` in your web page:
+在网页中下载并引用 `jquery.pjax.js`
 
+``` shell
+curl -LO https://raw.github.com/qcminecraft/jquery-pjax/master/jquery.pjax.js
 ```
-curl -LO https://raw.github.com/defunkt/jquery-pjax/master/jquery.pjax.js
+
+您也可以直接使用jsDelivr提供的CDN
+``` html
+<script src="https://cdn.jsdelivr.net/gh/qcminecraft/jquery-pjax/jquery.pjax.js"></script>
 ```
 
-## Usage
+## 使用
 
 ### `$.fn.pjax`
 
