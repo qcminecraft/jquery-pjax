@@ -1,19 +1,14 @@
 # pjax = pushState + ajax
 
-pjax is a jQuery plugin that uses ajax and pushState to deliver a fast browsing experience with real permalinks, page titles, and a working back button.
-
 **pjax是一个jQuery插件，它使用ajax和pushState为永久链接、页面标题和后退按钮提供快速浏览体验。**
 
-pjax works by fetching HTML from your server via ajax and replacing the content
-of a container element on your page with the loaded HTML. It then updates the
-current URL in the browser using pushState. This results in faster page
-navigation for two reasons:
+**pjax的工作原理是通过ajax从服务器获取HTML，并用加载的HTML替换掉页面上容器元素的内容，
+然后使用pushState更新浏览器中的当前URL。 这使页面导航更快，原因有二：**
 
-* No page resources (JS, CSS) get re-executed or re-applied;
-* If the server is configured for pjax, it can render only partial page
-  contents and thus avoid the potentially costly full layout render.
+* 没有页面资源（JS、CSS）被重新执行或应用;
+* 如果服务器为pjax配置，则它只能呈现部分页面内容，从而避免可能代价较高的完整布局渲染。
 
-### Status of this project
+### 项目状态
 
 jquery-pjax is **largely unmaintained** at this point. It might continue to
 receive important bug fixes, but _its feature set is frozen_ and it's unlikely
