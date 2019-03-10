@@ -1,9 +1,9 @@
 # pjax = pushState + ajax
 
-**pjax是一个jQuery插件，它使用ajax和pushState为永久链接、页面标题和后退按钮提供快速浏览体验。**
+pjax是一个jQuery插件，它使用ajax和pushState为永久链接、页面标题和后退按钮提供快速浏览体验。
 
-**pjax的工作原理是通过ajax从服务器获取HTML，并用加载的HTML替换掉页面上容器元素的内容，
-然后使用pushState更新浏览器中的当前URL。 这使页面导航更快，原因有二：**
+pjax的工作原理是通过ajax从服务器获取HTML，并用加载的HTML替换掉页面上容器元素的内容，
+然后使用pushState更新浏览器中的当前URL。 这使页面导航更快，原因有二：
 
 * 没有页面资源（JS、CSS）被重新执行或应用;
 * 如果服务器为pjax配置，则它只能呈现部分页面内容，从而避免可能代价较高的完整布局渲染。
